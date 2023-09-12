@@ -1,13 +1,10 @@
-// Student Name 	: Ciaran Whyte
-// Student Id Number: C00273862
-// Date 			: September, 2022
-// Purpose 			: HotelRoom Driver
+// Author: Ciaran Whyte
 
 public class RoomManagement
 { // begin class RoomManagement
 	public static void main(String args[]) 
 	{ // being main method
-		HotelRoom roomA = new HotelRoom();
+	HotelRoom roomA = new HotelRoom();
         HotelRoom roomB = new HotelRoom();
         HotelRoom roomC = new HotelRoom();       
 
@@ -28,7 +25,7 @@ public class RoomManagement
         roomC.setRoomOccupancy(0);
 
         System.out.println("------------");
-		System.out.println("Room A");
+	System.out.println("Room A");
         System.out.println("------------");
         System.out.println("Number: " + roomA.getRoomNumber());
         System.out.println("Type: " + roomA.getRoomType());
@@ -43,7 +40,7 @@ public class RoomManagement
             }
 
         System.out.println("------------");
-		System.out.println("Room B");
+	System.out.println("Room B");
         System.out.println("------------");
         System.out.println("Number: " + roomB.getRoomNumber());
         System.out.println("Type: " + roomB.getRoomType());
@@ -58,7 +55,7 @@ public class RoomManagement
             }
 
         System.out.println("------------");
-		System.out.println("Room C");
+	System.out.println("Room C");
         System.out.println("------------");
         System.out.println("Number: " + roomC.getRoomNumber());
         System.out.println("Type: " + roomC.getRoomType());
